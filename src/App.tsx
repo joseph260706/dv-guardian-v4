@@ -85,7 +85,7 @@ function Protected({ children, roles }: { children: React.ReactNode; roles?: str
 
 export default function App() {
   return (
-    <BrowserRouter basename="/DV-Guardian-V1">
+    <BrowserRouter basename="/dv-guardian-v4">
       <Toaster position="top-right" toastOptions={{ style: { background:'#161b27', color:'#f1f5f9', border:'1px solid #1e2d45', fontFamily:'JetBrains Mono', fontSize:'12px' }, duration: 3000 }} />
       <Routes>
         <Route path="/login" element={<Login />} />
