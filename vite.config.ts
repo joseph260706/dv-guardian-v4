@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/DV-Guardian-V1/',
+  base: '/dv-guardian-v4/',
   build: {
     outDir: 'dist',
     sourcemap: false,
